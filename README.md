@@ -44,6 +44,7 @@ git clone https://github.com/chail/anyres-gan.git
 	- We provide a Conda `environment.yml` file listing the dependencies. You can create a Conda environment with the dependencies using:
 ```bash
 conda env create -f environment.yml
+conda install cudatoolkit-dev=11.1 -c conda-forge
 ```
 
 - Download resources: we provide a script for downloading associated resources and pretrained models. Fetch these by running:
